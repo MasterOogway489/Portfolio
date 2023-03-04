@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    background-color: black;
+    
+}
+
+header {
+    color: white;
+}
+
+img {
+    width: 100px;;
+}

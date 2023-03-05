@@ -1,13 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    background-color: rgb(243, 244, 245);
+    height: 100vh;
+}
+
+.nav-title {
+    margin: 20px;
+}
+
+.nav-header {
+    color: #0099ff;
     display: flex;
-    background-color: black;
-    
+    flex-wrap: wrap;
+    justify-content:space-between;
+    height: 60px;
+}
+.nav-header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-header {
-    color: white;
+.nav-list {
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
 }
 
-img {
-    width: 100px;;
+.nav-list li {
+    padding: 10px;
+}
+
+.nav-list li a {
+    color: #0099ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.svg-section {
+    width: 100vw;
+    left: 0;
+    position: absolute;
+    bottom: 0;
 }

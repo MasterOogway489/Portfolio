@@ -17,8 +17,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    height: 60px;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+
 .nav-header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
@@ -32,7 +35,14 @@ body {
 }
 
 .nav-list li {
-    padding: 10px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-size: 1.2em;
+}
+
+.nav-list li:hover {
+    font-size: 1.25em;
+    letter-spacing: 1px;
 }
 
 .nav-list li a {
@@ -42,10 +52,15 @@ body {
 }
 
 .main-section {
+    width: 100%;
+    height: 100%;
+}
+
+.about-me {
     display: flex;
     flex-direction: row;
-    height: 60vh;
     width: 100%;
+    height: 80%;
 }
 
 .left-section {
@@ -59,6 +74,21 @@ body {
 .right-section {
     height: 100%;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section h2 {
+    color: #0099ff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.right-section-text {
+    margin: 40px;
+    font-size: 1.5em;
 }
 
 .profile-img {
@@ -68,10 +98,51 @@ body {
 }
 
 .svg-section {
-    width: 100vw;
+    width: 100%;
     left: 0;
     position: absolute;
     bottom: 0;
+}
+.work-section {
+    width: 100%;
+    height: 80vh;
+}
+
+.work-section h1 {
+    color: #0099ff;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 2em;
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 400px;
+    width: 100%;
+    width: 300px;
+}
+
+.card img {
+    width: 300px;
+}
+
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
 }
 
 

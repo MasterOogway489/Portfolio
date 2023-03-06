@@ -6,6 +6,7 @@
 body {
     background-color: rgb(243, 244, 245);
     height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-title {
@@ -23,7 +24,6 @@ body {
 }
 
 .nav-header h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -49,6 +49,9 @@ body {
     color: #0099ff;
     font-weight: bold;
     text-decoration: none;
+    border-style: solid;
+    border-color: #0099ff;
+    padding: 10px;
 }
 
 .main-section {
@@ -82,8 +85,9 @@ body {
 
 .right-section h2 {
     color: #0099ff;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
+    text-decoration: underline #0099ff;
 }
 
 .right-section-text {
@@ -115,9 +119,10 @@ body {
 .work-section h1 {
     color: #0099ff;
     font-weight: bold;
-    margin: 30px;
+    margin: 40px;
     font-size: 2em;
-
+    text-align: center;
+    text-decoration: underline #0099ff;
 }
 
 .card-container {
@@ -159,6 +164,33 @@ body {
     font-weight: bold;
     margin: 30px;
     font-size: 2em;
+    text-align: center;
+    text-decoration: underline #0099ff;
+}
+.contact-list {
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
+}
+.contact-section li a {
+    color: #0099ff;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    border-style: solid;
+    justify-content: center;
+    font-size: 1.75em;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    
+
+}
+.contact-section li a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 

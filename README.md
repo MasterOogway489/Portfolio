@@ -13,7 +13,7 @@ N/A
 The way this site should be used is to navigate through my work and see examples of what I am capable of so that an emplyer can decide whether or not they are interested in hiring me. On the navigation bar you can click the links to learn more about me, see my work, or contact me.
 
 ![About Me](./assets/About-Me.png)
-![Work](./assets/work.png)
+![Work](./assets/Work.png)
 ![Contact Me](./assets/Contact-Me.png)
 
 ## Credits
